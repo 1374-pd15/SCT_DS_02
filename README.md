@@ -43,7 +43,7 @@ The goal of this task is to analyze the Titanic dataset and build machine learni
 
 | File Name | Description |
 |----------|-------------|
-| `Task02_Titanic_Survival_Analysis.ipynb` | Jupyter Notebook with full implementation |
+| `SCT_DS_02.ipynb` | Jupyter Notebook with full implementation |
 | `titanic.csv` | Cleaned Titanic dataset used for analysis |
 | `README.md` | This documentation file |
 
