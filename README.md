@@ -56,3 +56,36 @@ numpy
 matplotlib
 seaborn
 scikit-learn
+
+🔍 Key Findings
+Gender was a major determinant: women had a much higher survival rate.
+
+Passenger Class (Pclass) showed a clear trend: survival was higher in 1st class.
+
+Age mattered — children and young adults had better chances.
+
+Passengers with larger families had lower survival rates.
+
+📊 Visual Samples
+Sample Visuals Created:
+
+sns.countplot(x='Survived', hue='Sex')
+
+sns.boxplot(x='Pclass', y='Age', hue='Survived')
+
+sns.heatmap(df.corr(), annot=True)
+
+These helped explain which features contributed most to survival, allowing us to choose the most relevant ones for training our models.
+
+✅ Conclusion
+This task provided a well-rounded experience in:
+
+Cleaning and preparing real-world data
+
+Performing impactful visual analysis
+
+Building and evaluating multiple classification models
+
+It was a strong reinforcement of the core data science workflow, especially in dealing with classic binary classification problems.
+
+
